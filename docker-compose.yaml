@@ -14,7 +14,7 @@ services:
   nfdump:
     build: nfdump
     ports:
-    - 9000-9099:9000-9099/udp
+    - 2055-2060:2055-2060/udp
     volumes:
     - ./profiles-data:/data
     - ./sources.conf:/tmp/sources.conf:ro
